@@ -1,0 +1,62 @@
+@use "../global" as g;
+
+/*!
+component > cardblog
+------------------------------
+*/
+
+.blog__unit{
+  max-width: 32.4rem;
+  width: 100%;
+  @include g.mo(){
+    max-width: 16.5rem;
+  }
+}
+
+.blog__imgbox{
+  margin-bottom: 2.9rem;
+  @include g.mo(){
+    margin-bottom: 1.2rem;
+  }
+}
+
+.blog__img{
+  max-width: 32.4rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.blog__menu{
+  font-size: 1.6rem;
+  letter-spacing: 0.016rem;
+  @include g.mo(){
+    font-size: 1.2rem;
+    letter-spacing: 0.012rem;
+  }
+}
+.blog__datetime,
+.blog__lead{
+  float: left;
+  margin-bottom: 1rem;
+  @include g.mo(){
+    margin-bottom: 0.8rem;
+  }
+}
+
+.blog__datetime{
+  padding-right: 1.6rem;
+  @include g.mo(){
+    padding-right: 1.5rem;
+  }
+}
+.blog__text{
+  clear: both;
+  font-size: 1.6rem;
+}
+
+.blog__unitsp{
+  display: none;
+  @include g.mo(){
+    display: block;
+  }
+}

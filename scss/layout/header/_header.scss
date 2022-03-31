@@ -1,0 +1,61 @@
+@use "../../global" as g;
+
+/*!
+layout > header > header
+------------------------------
+*/
+// .header {
+// }
+
+.header__wrapper{
+  max-width: 128rem;
+  width: 100%;
+  margin: 0 auto;
+  // color: aqua;
+  color: #FFFFFF;
+  display: flex;
+  justify-content:space-between;
+  position: relative;
+  // position: fixed;
+}
+
+.headerTitle__mainTitle{
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  margin: 3.6rem 0 0.8rem 4rem;
+  position: absolute;
+  z-index: 2;
+}
+
+.headerTitle__subTitle{
+  font-size: 1.2rem;
+  margin-left: 4rem;
+  position: absolute;
+  z-index: 2;
+  top: 6rem;
+}
+
+.header__nav{
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+}
+
+.globalNav__menu{
+  display: flex;
+  margin: 2.8rem 2.7rem 0 0;
+}
+
+.globalNavMenu__list{
+  font-size: 1.8rem;
+  margin-left: 6.4rem;
+}
+.globalNavMenu__link{
+  color: #FFF;
+}
+.globalNavMenu__link:hover{
+  border-bottom: 3px solid #FFF; /* 線の太さ 線の種類 線の色 */
+  // border-bottom: 3px solid blue; /* 線の太さ 線の種類 線の色 */
+}
+

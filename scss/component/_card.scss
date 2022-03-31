@@ -1,0 +1,96 @@
+@use "../global" as g;
+
+/*!
+component > card
+------------------------------
+*/
+
+// .itemInfo__area{
+//   display: flex;
+// }
+
+.itemInfo__unit{
+  max-width: 32.4rem;
+  width: 100%;
+  @include g.mo(){
+    max-width: 34.5rem;
+  }
+}
+
+.itemInfo__imgbox{
+  // max-width: 32.4rem;
+  // width: 100%;
+  margin-bottom: 2.3rem;
+  @include g.mo(){
+    // max-width: 34.5rem;
+    margin-bottom: 1.4rem;
+  }
+}
+.itemInfo__img{
+  max-width: 32.4rem;
+  width: 100%;
+  box-sizing: border-box;
+  @include g.mo(){
+    max-width: 34.5rem;
+  }
+}
+
+.itemInfo__list{
+  max-width: 32.4rem;
+  width: 100%;
+  @include g.mo(){
+    max-width: 34.5rem;
+  }
+}
+
+.itemInfo__item{
+  font-size: 1.6rem;
+  margin-bottom: 3.4rem;
+  letter-spacing: 0.032rem;
+  @include g.mo(){
+    margin-bottom: 2rem;
+    letter-spacing: 0.024rem;
+  }
+}
+
+.itemInfo__lead{
+  font-size: 2.4rem;
+  margin-bottom: 2.3rem;
+  letter-spacing: 0.048rem;
+  @include g.mo(){
+    margin-bottom: 1.7rem;
+  }
+}
+
+.itemInfo__text{
+  font-size: 1.6rem;
+  line-height: 1.75;
+}
+
+.itemInfo__leadCenter{
+  font-size: 2.4rem;
+  margin-bottom: 2.3rem;
+  overflow:hidden;
+  white-space: nowrap;
+  @include g.mo(){
+    margin-bottom: 1.7rem;
+  }
+}
+
+.itemInfo__textCenter{
+  font-size: 1.6rem;
+  line-height: 1.75;
+  text-align: center;
+}
+
+.mb_14{
+  @include g.mo(){
+    margin-bottom: 1.4rem;
+  }
+}
+
+.mb_36{
+  @include g.mo(){
+    margin-bottom: 3.6rem;
+  }
+}

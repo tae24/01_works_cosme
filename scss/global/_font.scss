@@ -1,0 +1,35 @@
+/*!
+global > font
+------------------------------
+*/
+// :root {
+//     --font-family-base: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+// }
+
+@charset "utf-8"; 
+
+body{
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+}
+
+h1,h2{
+    font-family: 'Montserrat',  sans-serif;
+    text-transform: capitalize;
+}
+
+.font__m{
+    font-family: 'Montserrat',  sans-serif;
+}
+
+/* 小文字を大文字に変換 */
+.font__up{
+    text-transform: uppercase;
+}
+/* 頭文字だけ大文字に変換 */
+.font__cap{
+    text-transform: capitalize;
+}
+/* 大文字を小文字に変換 */
+.font__lo{
+    text-transform: lowercase;
+}

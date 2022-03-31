@@ -1,0 +1,53 @@
+@use "../../global" as g;
+
+/*!
+layout > header > firstView
+------------------------------
+*/
+
+
+.firstView__wrapper{
+  max-width: 128rem;
+  width: 100%;
+  margin: 0 auto;
+  // margin-bottom: 50rem;
+}
+
+.firstView__titleBox{
+  // color: aqua;
+  color: #FFF;
+  position: absolute;
+  z-index: 2;
+  top: 36rem;
+}
+
+.firstView__title{
+  max-width: 34.9rem;
+  width: 100%;
+  font-size: 6.4rem;
+  line-height: 1.25;
+  font-weight: bold;
+  margin: 0 0 2.3rem 13.9rem;
+}
+
+.firstView__subTitle{
+  max-width: 47.5rem;
+  width: 100%;
+  font-size: 2.4rem;
+  letter-spacing: 0.12rem;
+  line-height: 1.3;
+  margin-left: 13.9rem;
+}
+
+// .firstView__imgBox{
+//   position: absolute;
+//   top: -100px;
+// }
+
+.firstView__img{
+  max-width: 128rem;
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 1;
+}
